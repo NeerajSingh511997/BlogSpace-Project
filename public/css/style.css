@@ -1,0 +1,65 @@
+.layout-border {
+	margin: 20px 0px;
+	padding: 40px 0px;
+	border-top: 1px solid #b3b3b3;
+	border-bottom: 1px solid #b3b3b3;
+}
+
+.checkbox-border {
+	border: 1px solid #ced4da;
+	border-radius: 0.25rem;
+}
+
+.avatar {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+
+.post-thumb {
+	width: 80px;
+	height: 50px;
+}
+
+.profile {
+	position: relative;
+}
+
+.profile-cover 
+{
+	border-radius: 5px;
+	max-width: 800px;
+	max-height: 350px;
+	overflow: hidden;
+}
+
+.profile-cover > img {
+	width: 800px;
+	height: 400px;	
+}
+
+.profile-img {
+	border-radius: 5px;
+	border: 5px solid #b3b3b3;
+	position: absolute;
+	bottom: -50px;
+	left: calc(50% - 50px);
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.profile-img > img {
+	width: 110px;
+	height: 110px;
+}
+
+.no-padding {
+	padding-left: 10px!important;
+	padding-right: 10px!important;
+}
+
+.about {
+	margin: 0 auto;
+}
